@@ -18,7 +18,7 @@ The Single Header Pattern Scanner is a lightweight, pattern scanning library for
 
 ## Example
 ```cpp
-auto pattern = CREATE_PATTERN("89 45 ?? E8 ?? ?? ?? ??", 0, PatternScanner::PatternType::FUNCTION_CALL);
+auto pattern = CREATE_PATTERN("89 45 ? E8 ? ? ? ?", 0, PatternScanner::PatternType::FUNCTION_CALL);
 auto address = PatternScanner::FindPattern(pattern, "your_module_name.dll");
 ```
 
